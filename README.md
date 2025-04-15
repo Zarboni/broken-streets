@@ -11,16 +11,14 @@ Built from scratch for clean code, easy scaling, and future expansion.
 
 ---
 
-## Features (v1.1.0)
-- Game window with title `Broken Streets`
-- Static background
+## Features (v1.2.0)
 - Character Select Screen (Graves, Red, Vee)
-- Controllable Player (move left/right)
-- Base game structure for adding:
-  - Enemies
-  - Levels
-  - Combat mechanics
-  - Sound & Music
+- Player color changes based on selected character
+- Player Movement (Left / Right)
+- Player Punch Mechanic (SPACE)
+- Enemy AI: Walks towards player
+- Enemy Health System with Health Bar
+- Enemy dies after 3 hits
 
 
 ---
@@ -58,9 +56,9 @@ Project Structure
 
 ## Future Roadmap
 
-- Enemy AI
-- Punch & Combat System
-- Health Bars
-- Story Elements
-- Scrolling Backgrounds
+- Player Health Bar
+- Enemy Punch / Attack Mechanic
+- Multiple Enemies
+- Player Death + Game Over screen
+- Level Transitions
 - Sound Effects & Music

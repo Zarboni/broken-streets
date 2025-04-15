@@ -21,11 +21,23 @@
 
 ---
 
-# Testing Results - Broken Streets v1.1.1 - 2025-04-16
+## v1.1.1 - 2025-04-16
 
 ### Character Select Screen
 ✅ Character Select appears
 ✅ Move selection with UP/DOWN
 ✅ Confirm selection with ENTER
 ✅ Selected name prints in terminal
+
+
+## v1.2.0 - 2025-04-16
+
+### Player Combat
+✅ Press SPACE to punch
+✅ Player can damage enemy if in range
+✅ Enemy health reduces per punch
+✅ Enemy dies after 3 hits
+✅ Enemy stops moving when dead
+✅ Enemy health bar appears above enemy and reduces correctly
+
 
