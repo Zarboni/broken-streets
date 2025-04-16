@@ -40,4 +40,31 @@
 ✅ Enemy stops moving when dead
 ✅ Enemy health bar appears above enemy and reduces correctly
 
+## v1.3.0 - 2025-04-16
+
+### Player Health
+✅ Player starts with 3 health points  
+✅ Health bar above player updates correctly  
+✅ Player dies when health reaches 0
+
+---
+
+## v1.4.0 - 2025-04-16
+
+### Enemy Punch
+✅ Enemy punches when near player  
+✅ Enemy cooldown prevents rapid fire punches  
+✅ Player loses health on hit  
+✅ Player dies at 0 HP
+
+---
+
+## v1.5.0 - 2025-04-16
+
+### Game Over System
+✅ Game Over screen appears on death  
+✅ Press `R` restarts the game from character select  
+✅ Press `Q` exits the game  
+✅ All systems reset correctly on restart
+
 
