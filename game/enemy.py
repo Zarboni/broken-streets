@@ -9,20 +9,32 @@ class Enemy:
         self.health = 3
         self.alive = True
 
-    def update(self, player_rect):
+        # Attack system
+        self.attack_cooldown = 1000  # milliseconds
+        self.last_attack_time = 0
+
+    def update(self, player):
         if not self.alive:
             return
 
-        if self.rect.x < player_rect.x:
+        # Movement
+        if self.rect.x < player.rect.x:
             self.rect.x += self.speed
-        elif self.rect.x > player_rect.x:
+        elif self.rect.x > player.rect.x:
             self.rect.x -= self.speed
+
+        # Attack logic
+        current_time = pygame.time.get_ticks()
+        if self.rect.colliderect(player.rect) and current_time - self.last_attack_time > self.attack_cooldown:
+            self.last_attack_time = current_time
+            player.take_damage()
 
     def take_hit(self):
         self.health -= 1
         print("Enemy hit! Health left:", self.health)
         if self.health <= 0:
             self.alive = False
+            print("Enemy defeated!")
 
     def draw(self, screen):
         if self.alive:

@@ -11,14 +11,20 @@ Built from scratch for clean code, easy scaling, and future expansion.
 
 ---
 
-## Features (v1.2.0)
+## Features (v1.5.0)
 - Character Select Screen (Graves, Red, Vee)
-- Player color changes based on selected character
 - Player Movement (Left / Right)
-- Player Punch Mechanic (SPACE)
-- Enemy AI: Walks towards player
-- Enemy Health System with Health Bar
-- Enemy dies after 3 hits
+- Player Color changes based on selection
+- Player Punch Mechanic (SPACE key)
+- Enemy AI (Follows player)
+- Enemy Health System (3 hits to die)
+- Enemy Health Bar (Above enemy)
+- Player Health System (3 HP)
+- Player Health Bar (Above player)
+- Enemy Punches Player on contact
+- Game Over Screen on player death
+- Restart (`R`) or Quit (`Q`) from Game Over
+
 
 
 ---
@@ -56,9 +62,12 @@ Project Structure
 
 ## Future Roadmap
 
-- Player Health Bar
-- Enemy Punch / Attack Mechanic
-- Multiple Enemies
-- Player Death + Game Over screen
-- Level Transitions
+- Scrolling Backgrounds / Levels
+- Multiple Enemies per level
+- Level Transition System
+- HUD Overlays (score, lives)
+- Main Menu (Start / Options / Quit)
 - Sound Effects & Music
+- Punch + Death Animations
+- Boss Fights & Stage Design
+- Story & Dialogue Reveal
